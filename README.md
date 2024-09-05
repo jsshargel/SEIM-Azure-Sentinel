@@ -1,8 +1,8 @@
 # SEIM Lab Using Azure Sentinel
-- 
+
+
 # Technologies Used
-- VirtualBox
-- Azure Sentinel
+
 
 # Configuration Steps
 - The first thing we will do is create an Azure account. 
