@@ -1,7 +1,7 @@
-# SEIM Tutorial Using Azure Sentinel
+# Beginner SEIM Lab Using Azure Sentinel
 - 
 # Technologies Used
 - VirtualBox
 - Azure Sentinel
-- PowerShell
-# Operating System
+
+#
