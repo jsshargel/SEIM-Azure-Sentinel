@@ -37,3 +37,16 @@
 - While that is happening let's create a log analytics workspace.
 - What this does is ingest logs from the VM we just created.
 - We are going to be analyzing Windows event logs and creating our own custom log that contains geographic information so that we can see where the attacks are coming from. 
+- After we are finished with this our SEIM will connect to the workspace and display the geodata on a map.
+- Alright, let's get started.
+- We can search for "log analytics workspace" and open that.
+- After that go ahead and click on "Create log analytics workspace."
+- Under the resource group, we want to go ahead and change it to the resource group that we made earlier.
+- After this, name it whatever you want and we'll use the same region as before, West US2.
+- Next, we can finish up by selecting create.
+
+<img src="https://github.com/user-attachments/assets/52b8d735-82f4-4b82-8fe6-ef671a2f5782" alt="Screenshot 2024-09-05 141824" width="600" style="float: left; margin-right: 10px;">
+
+
+#
+
