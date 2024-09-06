@@ -94,13 +94,15 @@
 - When we select security we can see all the security events on the VM.
 - For this lab, we will be focusing on Event ID 4625, which is an audit failure.
 - We're going to gather all these failures of attackers trying to log in through RDP!
+- If we click on one of these we can gather information and see the IP address of the person trying to log in.
+- We are going to use Powershell to gather all of these failures and post the IP addresses to an IP geolocation API which will then return a bunch of information for us.
+- We will then use the information it gives us to create a custom log which we'll then send to the log analytics workspace and then use Sentinel to read the coordinates of the attacks and plot them on a map for us to visualize. 
 <img src="https://github.com/user-attachments/assets/f29d121a-d4d5-42fe-a725-94b824f865a0" alt="Screenshot 2024-09-06 100730" width="600" style="float: left; margin-right: 10px;">
 
 #
 
-- If we click on one of these we can gather information and see the IP address of the person trying to log in.
-- We are going to use Powershell to gather all of these failures and post the IP addresses to an IP geolocation API which will then return a bunch of information for us.
-- We will then use the information it gives us to create a custom log which we'll then send to the log analytics workspace and then use Sentinel to read the coordinates of the attacks and plot them on a map for us to visualize. 
+- Let's go ahead and turn the firewall off so can respond to ICMP echo requests.
+- This will allow attackers to discover the VM on the internet much faster. 
 
 
 
