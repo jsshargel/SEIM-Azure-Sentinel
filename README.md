@@ -1,4 +1,4 @@
-# SIEM Lab Using Azure Sentinel
+# SIEM Lab Using Microsoft(Azure) Sentinel
 
 
 # Technologies Used
