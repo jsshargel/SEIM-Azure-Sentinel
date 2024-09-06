@@ -68,7 +68,29 @@
 <img src="https://github.com/user-attachments/assets/339fdffd-9a73-42bb-8ebc-52811b0314b9" alt="Screenshot 2024-09-06 091523" width="600" style="float: left; margin-right: 10px;">
 
 #
-- 
+
+- Alright, now it is time to set up Sentinel which we will use to visualize the attack data!
+- Head up to the search bar again and head over to "Microsoft Sentinel."
+- Now we just create Microsoft Sentinel and add the workspace that we want to connect to.  
+<img src="https://github.com/user-attachments/assets/6adc55b9-d8ea-4e2b-bd4a-47f0a1edc5d2" alt="Screenshot 2024-09-06 092911" width="600" style="float: left; margin-right: 10px;">
+
+#
+
+- Ok, now let's head back over to our VM.
+- We're going to log into it using Remote Desktop.
+- First, we'll copy the IP address of our VM and then open Remote Desktop on our computer.
+- Once there let's enter that IP address and click connect.
+- When the login screen pops up click on "Use a different account."
+- Use the credentials created previously to log in.
+- Accept the security certificate notification.
+- After this is finished loading just disable all of the privacy settings and continue.
+- Alright, We're in!
+<img src="https://github.com/user-attachments/assets/c23172b0-7dbc-42b7-b4b4-f0c0eee1eb21" alt="Screenshot 2024-09-06 094650" width="600" style="float: left; margin-right: 10px;">
+
+#
+
+
+
 
 
 
