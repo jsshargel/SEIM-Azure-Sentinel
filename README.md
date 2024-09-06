@@ -47,6 +47,56 @@
 
 <img src="https://github.com/user-attachments/assets/52b8d735-82f4-4b82-8fe6-ef671a2f5782" alt="Screenshot 2024-09-05 141824" width="600" style="float: left; margin-right: 10px;">
 
+#
+
+- Now we need to enable the ability to gather logs from the VM and display them in the log analytics workspace.
+- To do this, let's head back to the search bar and search for "Microsoft Defender for Cloud"
+- Once there we can head over to "Management" and then "Environment Settings."
+- Then we use the drop-down menu under "Tenant Root Group" to find the long analytics workspace we just made.
+<img src="https://github.com/user-attachments/assets/7b6da8f3-8488-48ef-9782-d00b25a68571" alt="Screenshot 2024-09-06 090147" width="600" style="float: left; margin-right: 10px;">
 
 #
+
+- Click on whatever you named it and once we get to Defender Plans we want to select "enable all plans."
+- After this, we want to just disable SQL servers on machines. Go ahead and save that and then head over to data collection.
+- Here we want to enable "All Events" and then save that. 
+- Now we'll head back over to our log analytics workspace and connect it to the VM.
+- Once we make it back over to the log analytics workspace we want to find the VM that we made previously.
+- Find the "Classic" dropdown menu and select Virtual Machines.
+- After this select the VM.
+- Then we select connect.
+<img src="https://github.com/user-attachments/assets/339fdffd-9a73-42bb-8ebc-52811b0314b9" alt="Screenshot 2024-09-06 091523" width="600" style="float: left; margin-right: 10px;">
+
+#
+- 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
