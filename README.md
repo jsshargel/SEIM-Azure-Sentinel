@@ -150,7 +150,7 @@
 
 #
 
-- New up, we are going to create a custom log in Log Analytics Workspace. 
+- Next up, we are going to create a custom log in Log Analytics Workspace. 
 - Let's go ahead and head over there in the Azure portal.
 - Once there, and in our workspace, we head over to settings.
 - Under settings, we select "Tables" and then create a new custom log (MMA-Based).
