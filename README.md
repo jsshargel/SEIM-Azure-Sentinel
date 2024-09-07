@@ -144,8 +144,26 @@
 - Next, let's go ahead and run the PowerShell script.
 - The script will be creating a log file.
 - It continuously monitors the security log, takes all the events of people who failed to log in, and collects the geodata from them based on their IP Addresses.
-- 
+- After encountering some troubleshooting issues check out how many people are attacking this machine already! They are pouring in.
+- I had to change the first line because the script wouldn't run correctly. Then I had to go into the program data file and delete the first log file that the script made and try again. 
+  <img src="https://github.com/user-attachments/assets/b6ab5908-f208-4e03-be41-6a59e0fe60ba" alt="Screenshot 2024-09-07 103350" width="600" style="float: left; margin-right: 10px;">
 
+#
+
+- New up, we are going to create a custom log in Log Analytics Workspace. 
+- Let's go ahead and head over there in the Azure portal.
+- Once there, and in our workspace, we head over to settings.
+- Under settings, we select "Tables" and then create a new custom log (MMA-Based).
+- Once there we need a sample log to select. We are going to grab the one from the Program Data file in our VM.
+- Head over to the VM and click start, run, C:\ProgramData
+- Open the failed_rdp file that the script created and copy the contents.
+- Afterwards, save the contents onto a file on your main computer and then open that file in the log analytics workspace. 
+- This will train log analytics on what to look for in our log file.
+<img src="https://github.com/user-attachments/assets/f9391a1c-312e-43f9-90bb-d32feb7b0a03" alt="Screenshot 2024-09-07 104807" width="600" style="float: left; margin-right: 10px;">
+
+#
+
+- Select next, and then under collection paths we're going to put the path where the log file is which is C:\ProgramData\failed_rdp.log
 
 
 
