@@ -180,12 +180,36 @@
 
 #
 
+- Now, let's head over to Sentinel.
+- Head over to the workbooks section and click add workbook.
+- Click on edit and remove everything that is in the workbook.
+- We need to write a query to select failed RDP attempts and extract the IP address associated with these attempts.
+- Select edit and then add the query.
+- I am using the query provided here. https://github.com/aldot311/Azure-Sentinel-Lab
+- Make sure to select "Map" under visualization and the change the size to "Full."
+- Then change the name at the top of the query to the name that you named your log.
+- Ok now run query and then apply and save and close.
+  
+<img width="1093" alt="Screenshot 2024-09-07 113819" src="https://github.com/user-attachments/assets/c88001fc-4b4f-4de9-b8f6-af71fd195f66">
+
+#
+
+Ok go ahead and save as and make sure to add the HoneyPot to the resource group.
+
+<img width="1096" alt="Screenshot 2024-09-07 114104" src="https://github.com/user-attachments/assets/a53e891f-ccd0-4199-b6f5-c8b2596aa3d3">
+
+Whoa! look at all of these attacks coming in!!
+<img width="523" alt="Screenshot 2024-09-07 115139" src="https://github.com/user-attachments/assets/5cfdf2cf-3aff-498b-96c5-e53d9f081687">
+
+#
+
+Let's check back in after a little while!
 
 
+# 
 
-
-
-
+Lastly, to not waste any money make sure to delete the VM and resource groups!
+To do this just head over to resource groups and 
 
 
 
