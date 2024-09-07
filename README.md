@@ -102,7 +102,50 @@
 #
 
 - Let's go ahead and turn the firewall off so can respond to ICMP echo requests.
-- This will allow attackers to discover the VM on the internet much faster. 
+- This will allow attackers to discover the VM on the internet much faster.
+- Let's head over to the command line on our own computer.
+- Once there let's ping our virtual machine.
+- To do this we run the command "ping (IP Address) -t"
+- The -t tells it to ping the address perpetually.
+- When we do this and point it toward our VM we can see that it is timing out. 
+<img src="https://github.com/user-attachments/assets/a360bcb0-a7c3-4fa2-9d9c-cb06a9c483ba" alt="Screenshot 2024-09-07 084716" width="600" style="float: left; margin-right: 10px;">
+
+#
+
+- Now we'll head over to the virtual machine and turn off the firewall.
+- Open the start menu and enter "wf.msc."
+- Once there click "Windows Defender Firewall Policies" and turn everything off.
+- As soon as we do that we can see that the ping is starting to work since echo requests are allowed.
+<img src="https://github.com/user-attachments/assets/a48b37a5-bf89-48aa-90a8-d4f541bb7716" alt="Screenshot 2024-09-07 085355" width="600" style="float: left; margin-right: 10px;">
+
+#
+
+- Next up, we will copy a PowerShell provided by Josh Madakor.
+- The script is located at https://github.com/joshmadakor1/Sentinel-Lab/blob/main/Custom_Security_Log_Exporter.ps1
+- Once we copy the script we head over to the Start menu and open up PowerShell ISE.
+- Once we are there we can paste the script and save it onto the desktop.
+<img src="https://github.com/user-attachments/assets/2a8f72f1-5984-4881-ba52-5a1a392c2602" alt="Screenshot 2024-09-07 090251" width="600" style="float: left; margin-right: 10px;">
+
+#
+
+- The next thing we need to do is get an API key from https://ipgeolocation.io/
+- We'll put this into the PowerShell Script so that we can convert our IP Address to longitude and latitude.
+- Ok so let's head over to that site inside of our VM and sign up so that we can get that API key.
+<img src="https://github.com/user-attachments/assets/a44d59a2-216f-499d-b4c9-b1cf7211ef33" alt="Screenshot 2024-09-07 090825" width="600" style="float: left; margin-right: 10px;">
+
+#
+
+- Once we can log in we can copy the API key, transfer it to the PowerShell script, and then save the file.
+
+<img src="https://github.com/user-attachments/assets/af8f1902-70d7-4927-93cf-328ef25f2f94" alt="Screenshot 2024-09-07 091402" width="600" style="float: left; margin-right: 10px;">
+
+#
+
+- Next, let's go ahead and run the PowerShell script.
+- The script will be creating a log file.
+- It continuously monitors the security log, takes all the events of people who failed to log in, and collects the geodata from them based on their IP Addresses.
+- 
+
 
 
 
