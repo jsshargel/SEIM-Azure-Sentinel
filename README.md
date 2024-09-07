@@ -204,6 +204,9 @@ Whoa! look at all of these attacks coming in!!
 #
 
 Let's check back in after a little while!
+Just a little while later and the attacks are non-stop! Pretty cool. Looks like Russia is going hard.
+<img width="519" alt="Screenshot 2024-09-07 120007" src="https://github.com/user-attachments/assets/f0e16031-0697-4baf-9719-0af0e2cc6bcf">
+
 
 
 # 
