@@ -189,29 +189,26 @@
 - Make sure to select "Map" under visualization and the change the size to "Full."
 - Then change the name at the top of the query to the name that you named your log.
 - Ok now run query and then apply and save and close.
-  
-<img width="1093" alt="Screenshot 2024-09-07 113819" src="https://github.com/user-attachments/assets/c88001fc-4b4f-4de9-b8f6-af71fd195f66">
+<img src="https://github.com/user-attachments/assets/c88001fc-4b4f-4de9-b8f6-af71fd195f66" alt="Screenshot 2024-09-07 113819" width="600" style="float: left; margin-right: 10px;">
 
 #
 
-Ok go ahead and save as and make sure to add the HoneyPot to the resource group.
+- Ok go ahead and save as and make sure to add the HoneyPot to the resource group.
+<img src="https://github.com/user-attachments/assets/a53e891f-ccd0-4199-b6f5-c8b2596aa3d3" alt="Screenshot 2024-09-07 114104" width="600" style="float: left; margin-right: 10px;">
 
-<img width="1096" alt="Screenshot 2024-09-07 114104" src="https://github.com/user-attachments/assets/a53e891f-ccd0-4199-b6f5-c8b2596aa3d3">
 
-Whoa! look at all of these attacks coming in!!
-<img width="523" alt="Screenshot 2024-09-07 115139" src="https://github.com/user-attachments/assets/5cfdf2cf-3aff-498b-96c5-e53d9f081687">
+- Whoa! Look at all of these attacks coming in!!
+<img src="https://github.com/user-attachments/assets/5cfdf2cf-3aff-498b-96c5-e53d9f081687" alt="Screenshot 2024-09-07 115139" width="600" style="float: left; margin-right: 10px;">
 
 #
 
-Let's check back in after a little while!
-Just a little while later and the attacks are non-stop! Pretty cool. Looks like Russia is going hard.
-<img width="519" alt="Screenshot 2024-09-07 120007" src="https://github.com/user-attachments/assets/f0e16031-0697-4baf-9719-0af0e2cc6bcf">
-
-
+- Let's check back in after a little while!
+- Just a little while later and the attacks are non-stop! Pretty cool. Looks like Russia is going hard.
+<img src="https://github.com/user-attachments/assets/f0e16031-0697-4baf-9719-0af0e2cc6bcf" alt="Screenshot 2024-09-07 120007" width="600" style="float: left; margin-right: 10px;">
 
 # 
 
-Lastly, to not waste any money make sure to delete the VM and resource groups. 
+- Lastly, to not waste any money make sure to delete the VM and resource groups. 
 
 
 
