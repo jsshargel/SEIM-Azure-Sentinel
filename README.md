@@ -211,8 +211,7 @@ Just a little while later and the attacks are non-stop! Pretty cool. Looks like 
 
 # 
 
-Lastly, to not waste any money make sure to delete the VM and resource groups!
-To do this just head over to resource groups and 
+Lastly, to not waste any money make sure to delete the VM and resource groups. 
 
 
 
