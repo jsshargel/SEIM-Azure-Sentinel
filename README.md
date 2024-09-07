@@ -164,6 +164,23 @@
 #
 
 - Select next, and then under collection paths we're going to put the path where the log file is which is C:\ProgramData\failed_rdp.log
+- On the next page under details we can just name it whatever but I am going to name it Failed_RDP.
+- Alright now just create the custom log!
+- 
+<img src="https://github.com/user-attachments/assets/686ba11c-1322-4b4d-a0a5-40118b5c3983" alt="Screenshot 2024-09-07 105305" width="600" style="float: left; margin-right: 10px;">
+
+#
+
+- To check out the log we can head over to Logs and search for the log we just created, which in my case is Failed_RDP_CL
+- When we find this and then run it we can see everything that is in it.
+- Let's check out the security events under our log analytics workspace also.
+- This time let's type in securityevents and then run that.
+- We can see all of the security events we were looking at earlier in our VM!
+<img src="https://github.com/user-attachments/assets/69263fc2-f388-47f4-b9b1-5a26cab16616" alt="Screenshot 2024-09-07 110229" width="600" style="float: left; margin-right: 10px;">
+
+#
+
+
 
 
 
