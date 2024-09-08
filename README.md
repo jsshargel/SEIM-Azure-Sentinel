@@ -1,5 +1,5 @@
 # SIEM Lab Monitoring Real-Time Attacks Using Microsoft(Azure) Sentinel
-- The goal of this lab is to create a Virtual Machine in Azure and then make it extremely vulnerable to attackers. Once we do that we will use log analytics workspace to monitor that traffic and finally plot it on a map using PowerShell and Sentinel.
+- The goal of this lab is to create an extremely vulnerable Virtual Machine in Azure to simulate real-world attacks. We'll then use PowerShell to extract IP Addresses from the Windows Event Monitor, specifically from failed RDP login attempts. The script will send the IP Addresses to a GeoLocation API so that we can figure out exactly where the attacks are coming from. The data gathered will then be logged and analyzed using Azure Log Analytics Workspace. Once in log analytics, we'll point the data to Azure Sentinel to visualize the data on a map!
 # Technologies Used
 - Virtualization/Cloud Platform: Azure
 - SIEM: Azure Sentinel
@@ -12,7 +12,7 @@
 - Firewall Configuration: Windows Defender Firewall
 - Data Visualization: Azure Sentinel Workbooks
 # Skills and Lessons Learned
-- This lab was so much fun and challenging at points because I ran into quite a few problems. I gained so much practical experience having to work through issues along the way. This lab helped me gain valuable experience in setting up and configuring Azure Sentinel to monitor attacks in real-time. I also enjoyed playing around with log analytics.
+- This lab was so much fun and challenging at points because I ran into quite a few problems. I gained so much practical experience having to work through issues along the way. This lab helped me gain valuable experience in setting up and configuring Azure Sentinel to monitor attacks in real time! I also enjoyed playing around in the log analytics workspace. Understanding the log process was invaluable. This lab allowed me to gain experience from ingestion to analysis. 
 # Configuration Steps
 - The first thing we will do is create an Azure account. 
 - An important note: At the end of this lab we need to circle back and delete the resource group with all of the resources in it.
