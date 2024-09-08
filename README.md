@@ -1,4 +1,4 @@
-# SIEM Lab Using Microsoft(Azure) Sentinel
+# SIEM Lab monitoring real-time attacks using Microsoft(Azure) Sentinel
 
 
 # Technologies Used
