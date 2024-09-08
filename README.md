@@ -195,9 +195,9 @@
 - We need to write a query to select failed RDP attempts and extract the IP address associated with these attempts.
 - Select edit and then add the query.
 - I am using the query provided here. https://github.com/aldot311/Azure-Sentinel-Lab
-- Make sure to select "Map" under visualization and the change the size to "Full."
+- Make sure to select "Map" under visualization and change the size to "Full."
 - Then change the name at the top of the query to the name that you named your log.
-- Ok now run query and then apply and save and close.
+- Ok now run the query and then apply, save, and close.
 <img src="https://github.com/user-attachments/assets/c88001fc-4b4f-4de9-b8f6-af71fd195f66" alt="Screenshot 2024-09-07 113819" width="600" style="float: left; margin-right: 10px;">
 
 #
@@ -212,12 +212,12 @@
 #
 
 - Let's check back in after a little while!
-- Just a little while later and the attacks are non-stop! Pretty cool. Looks like Russia is going hard.
+- Just a little while later the attacks are non-stop! Pretty cool. Looks like Russia is going hard.
 <img src="https://github.com/user-attachments/assets/f0e16031-0697-4baf-9719-0af0e2cc6bcf" alt="Screenshot 2024-09-07 120007" width="600" style="float: left; margin-right: 10px;">
 
 # 
 
-- Lastly, to not waste any money make sure to delete the VM and resource groups. 
+- Lastly, to not waste any money, make sure to delete the VM and resource groups. 
 - I learned how to do this from Josh Madakor.
 - You can check out his GitHub at https://github.com/joshmadakor1 or his YouTube channel at https://www.youtube.com/c/JoshMadakor.
 
