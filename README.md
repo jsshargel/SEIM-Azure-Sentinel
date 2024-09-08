@@ -12,7 +12,7 @@
 - Firewall Configuration: Windows Defender Firewall
 - Data Visualization: Azure Sentinel Workbooks
 # Skills and Lessons Learned
-- This lab was so much fun and challenging at points because I ran into quite a few problems. I gained so much practical experience having to work through issues along the way. This lab helped me gain valuable experience in setting up and configuring Azure Sentinel to monitor attacks in real time! I also enjoyed playing around in the log analytics workspace. Understanding the log process was invaluable. This lab allowed me to gain experience from ingestion to analysis. 
+- This lab was so much fun and challenging at points because I ran into quite a few problems. I gained so much practical experience having to work through issues along the way. This lab helped me gain valuable experience in setting up and configuring Azure Sentinel, a cloud-based SIEM, to monitor attacks in real time! I also enjoyed playing around in the log analytics workspace learning how to manage and analyze logs. Understanding the log ingestion and analysis process within a SIEM environment was invaluable. I look forward to doing more labs like this one! 
 # Configuration Steps
 - The first thing we will do is create an Azure account. 
 - An important note: At the end of this lab we need to circle back and delete the resource group with all of the resources in it.
