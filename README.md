@@ -1,9 +1,18 @@
 # SIEM Lab Monitoring Real-Time Attacks Using Microsoft(Azure) Sentinel
-
-
+- The goal of this lab is to create a Virtual Machine in Azure and then make it extremely vulnerable to attackers. Once we do that we will use log analytics workspace to monitor that traffic and finally plot it on a map using PowerShell and Sentinel.
 # Technologies Used
-
-
+- Virtualization/Cloud Platform: Azure
+- SIEM: Azure Sentinel
+- Log Management: Azure Log Analytics
+- Automation and Scripting: PowerShell
+- Geolocation Services: IP Geolocation.io
+- Network Services: RDP and ICMP
+- Operating Systems: Windows 10
+- Monitoring and Alerts: Windows Event Logs
+- Firewall Configuration: Windows Defender Firewall
+- Data Visualization: Azure Sentinel Workbooks
+# Skills and Lessons Learned
+- This lab was so much fun and challenging at points because I ran into quite a few problems. I gained so much practical experience having to work through issues along the way. This lab helped me gain valuable experience in setting up and configuring Azure Sentinel to monitor attacks in real-time. I also enjoyed playing around with log analytics.
 # Configuration Steps
 - The first thing we will do is create an Azure account. 
 - An important note: At the end of this lab we need to circle back and delete the resource group with all of the resources in it.
@@ -13,9 +22,9 @@
 - The first thing we should do is create a resource group. I am naming mine "HoneyPotLab."
 - Next, I am going to name the VM "HoneyPot"
 - After that, we need to pick a region. I am going to use West US 2.
-- Let's make sure availability options are set to "No infrastructure redundancy required" and security type is set to "Standard."
+- Let's ensure availability options are set to "No infrastructure redundancy required" and security type is set to "Standard."
 - I am going to change the image to Windows 10 Pro.
-- The size we can keep the same, "Standard_D2s_v3 - 2 vcpus, 8GB Memory."
+- We can keep the same size: "Standard_D2s_v3 - 2 vcpus, 8GB Memory."
 - Now we can make a username and password.
 - After that we do not need to change anything else and we can go ahead and move on to the next part of the configuration.
 <img src="https://github.com/user-attachments/assets/33440341-61d8-44fb-afce-3c7b0389e595" alt="Top Image" width="600" style="float: left; margin-right: 10px;">
@@ -209,7 +218,8 @@
 # 
 
 - Lastly, to not waste any money make sure to delete the VM and resource groups. 
-
+- I learned how to do this from Josh Madakor.
+- You can check out his GitHub at https://github.com/joshmadakor1 or his YouTube channel at https://www.youtube.com/c/JoshMadakor.
 
 
 
